@@ -1,0 +1,11 @@
+server:
+  port: 0  # Each instance can start on a different port if needed
+
+some:
+  message: "This is payment service config from config server"
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/payment_db
+    username: root
+    password: root123
